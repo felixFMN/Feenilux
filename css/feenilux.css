@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Scada:400,700);
+
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	/* font-family: 'Scada', sans-serif; */
+	font-size:12px;
+	color:#000;
+	}
+a, a:hover, a:active { color:#FBB20C;
+	}
+h1{
+	margin:15px 0px;
+	font-weight:bold;
+	color:#004099;
+	font-family: 'Scada', sans-serif;
+	font-size:22px;
+	text-transform:uppercase;
+	padding-left: 30px;
+	background:url(../img/fenix2.png) left center no-repeat;
+	}
+h2{
+	margin:15px 0px;
+	font-weight:bold;
+	color:#004099;
+	font-family: 'Scada', sans-serif;
+	font-size:22px;
+	text-transform:uppercase;
+	}
+p{
+	margin:15px 0px;
+	}
+	
+/******* header ********/
+header{
+	width:980px;
+	margin:0px auto;
+	height:150px;
+	position:relative;
+	border-bottom:5px solid #BBBDBD;
+	
+	}
+.logo{
+	display:block;
+	position:absolute;
+	width:230px;
+	height:120px;
+	top:15px;
+	left:55px;
+	}
+.telef{
+	width:300px;
+	height:60px;
+	position:absolute;
+	font-family: 'Scada', sans-serif;
+	font-size:20px;
+	top:10px;
+	right:32px;
+	text-align:right;
+	line-height:20px;
+	background:url(../img/phone.png) 22px center no-repeat;
+	padding:15px 0px;
+	
+	}
+.telef a{
+	color:#F04D21;
+	text-decoration:none;
+	}
+.telef a:hover{
+	color:#F04D21;
+	text-decoration:underline;
+	}
+/*********
+.menu{
+	width:590px;
+	height:35px;
+	position:absolute;
+	bottom:15px;
+	right:0px;
+	}
+.menu ul{
+	list-style:none;
+	height:35px;
+	
+	}
+.menu ul li a{
+	
+	background:#D61A29;
+	float:left;
+	color:#FFF;
+	font-size:15px;
+	padding:10px 28px;
+	text-decoration:none;
+	border-right:1px solid #F30;
+	font-weight:bold;
+	text-shadow:0 1px 1px rgb(0, 0, 0, 0.5);
+	}
+.menu ul li a:hover{
+	background:#F5891B;
+	}
+.last{ border:none !important;
+}
+
+/********* section *******/
+
+.banner{
+	width:100%;
+	height:300px;
+	background:#fff;
+	/*background:#FAAA0F;*/
+	}
+
+/****** footer *******/
+footer{
+	width:960px;
+	background:#D61A29;
+	margin:10px auto;
+	padding:5px 10px;
+	
+	}
+footer p{
+	text-align:center;
+	color:#FFF;
+	line-height:10px;
+	
+	}
+
+/********** slide ***********/
+.slides {
+	position:relative;
+	display: block;
+	width:980px;
+	height:290px;
+	z-index:0;
+	margin:0 auto;
+	overflow:hidden;
+	border:5px solid #FAAA0F;
+	
+}
+.slides1{
+	position:relative;
+	display: block;
+	width:210px;
+	height:230px;
+	z-index:0;
+	margin:0 auto;
+	overflow:hidden;
+	border:5px solid #BBBDBD;
+	
+}
+
+.slides_container {
+	width:100%;
+	height:100%;
+	margin:0 ;
+	
+
+}
+
+.slides_container a {
+	width:100%;
+	height:100%;
+	z-index:1;
+	
+}
+
+
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+.slides .next,.slides .prev {
+	position: absolute;
+	top: 130px;
+	left:0px;
+	width:38px;
+	height:38px;
+	display:block;
+	z-index:9;
+	border:none;
+}
+
+.slides .next {
+	left:942px;
+	z-index:9;
+	top:130px;
+	border: none;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	width:90px;
+	z-index:9;
+	position: absolute;
+	top:85%;
+	left:48%;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background:url(../slider-img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/****** descripcion ********/
+.descripcion{
+	width:980px;
+	margin:0 auto;
+	padding:20px 0px;
+	}
+.izq{
+	width:220px;
+	float:left;
+	padding:0px;
+	}
+.der{
+	width:670px;
+	float:left;
+	padding:0px 45px;
+	background:url(../img/background.jpg);
+	
+	}
+.der p{
+	line-height:20px;
+	text-align:justify;
+	
+	}
+.limpiar{
+	clear:both;
+	}
+.marcas{
+	border:1px #BBBDBD solid;
+	text-align:center;
+		
+	}
+.leermas{
+	display:block;
+	padding:10px 0px;
+	font-weight:bold;
+	color:#000;
+	width:80px;
+	background:url(../img/next.png) no-repeat left center;
+	padding-left:25px;
+	margin-top:-15px;
+	}
+.leermas:hover{
+	color:#D61A29;
+	
+	}
+	
+/************** menu */
+.menu{
+	width:605px;
+	height:35px;
+	position:absolute;
+	bottom:15px;
+	right:0px;
+	
+	
+	}
+.menu ul{
+	background:#D61A29;
+	height:35px;
+	list-style:none;
+	}
+	.menu li{
+		float:left;
+		padding:0px;
+		}
+	.menu li a{
+		background:#D61A29;
+		color:#fff;
+		display:block;
+		font-weight:bold;
+		font-size:15px;
+		margin:0px;		
+	padding:10px 28px;
+	text-decoration:none;
+	border-right:1px solid #F30;
+	font-weight:bold;
+	text-shadow:0 1px 1px rgb(0, 0, 0, 0.5);
+		}
+		
+	.menu li a:hover, .menu ul li:hover a{
+			
+			background:#F5891B;
+			}
+	.menu li ul{
+		background:#D61A29;
+		display:none;
+		height:35px;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:270px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		
+		}
+	.menu li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:270px;
+		}
+	.menu li:hover li a{
+		background:none;
+		background:#D61A29;
+		
+		}
+	.menu li ul a{
+		display:block;
+		height:15px;
+		font-size:15px;
+		font-weight:normal;
+		margin:0px;
+		padding:10px 10px 10px 20px;
+		text-align:left;		
+	border-bottom:1px solid #F30;
+		}
+		.menu li ul a:hover, .menu li ul li:hover a{
+			background:#F5891B;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.menu p{
+		clear:left;
+		}	
+.last{ border:none !important;
+}
+.catalogo{
+	width:100%;
+	margin:15px 0px;
+	}
+
+.prod{
+	width:160PX;
+	height:99PX;
+	border:1px solid #CCC;
+	float:right;
+	margin-left:4px;
+	} 
+.prod:hover{
+	border:1px solid #FAAA0F;
+	}
+	/***************** contacto ***********/
+.formulario{
+	width:50%;
+	float:left;
+	margin:15px 0px;
+	border-right:2px #CCCCCC solid;
+	}
+.datoscont{
+	width:45%;
+	float:left;
+	margin:15px 0px 15px 20px;
+	}
+.formulario ul{
+	margin:10px;
+	padding:10px;
+	list-style:square;
+	
+	}
+.formulario ul li {
+	line-height:18px;
+	}
+#formulario{
+	width:80%;
+	margin:10px 0px;
+	background:#E6EAEC;
+	padding:20px; }
+#formulario input, TextArea{
+	width:180px;
+	padding:5px;
+	}
+#formulario table{
+	margin-left:40px;}
+.mensajeenviado{
+	padding:10px;
+	background:#9C0;
+	color:#FFF;
+	margin:15px 0px;
+	}
+.producto{
+	width:180px;
+	float:left;
+	height:auto;
+	margin:10px 2px;
+	border:5px solid #DFDFDF;
+	
+	}
+.producto span{
+	display:block;
+	width:150px;
+	padding:8px 10px;
+	text-align:center;
+	background:#434343;
+	margin:5px;
+	color:#FFF;
+	
+		}
+.producto:hover{
+	border:5px solid #FAAB0F;
+	
+		}
+	/**********************/
+	
+.listaprod table, .listaprod td, .listaprod th{
+	border:1px #333 solid;
+	padding:5px;
+	}	
+	
+.listaprod th{
+	font-weight:bold;
+	}
+.menuprod{
+	margin:0px;
+	margin-bottom:10px;
+	
+	}
+.menuprod ul{
+	list-style:none;
+	margin:0px;
+	}
+.menuprod li a{
+	padding:5px;
+	padding-left:15px;
+	width:90%;
+	line-height:20px;
+	text-decoration:none;
+	background:#515253;
+	color:#FFF;
+	display:block;
+	margin:2px 0px;
+	
+	}
+.menuprod li a:hover{
+	background:#004099;
+	}
+/******* marcas */
+.marcasbod{
+	width:980px;
+	margin:0px auto;
+	margin-bottom:20px;
+	
+	}
+.importante{
+	padding:10px 15px;
+	background:#EDEDED;
+	font-weight:bold;
+	
+	}
+.led{
+	margin:15px 0px;
+	text-align:center;
+	border:5px solid #CCC;
+	}
+.noticias{
+	margin:15px 0px;
+	text-align:center;
+	border:5px solid #CCC;
+	}
+.led a{
+	border:none;
+	}
+.listaled{
+	margin:10px 20px;
+	line-height:25px;
+	}
+/************* productos */
+.produni{
+	float:left;
+	width:140px ;
+	border:5px #CCCCCC solid;
+	margin-left:15px;
+	margin-bottom:10px;
+	}
+.produni:hover{
+	border:5px #F79716 solid;
+	
+	}
+.produni span{
+	width:130px;
+	padding:8px 5px;
+	height:30px;
+	display:block;
+	text-align:center;
+	background:#F2F2F2;
+	color:#434343;
+	margin:0px;
+	vertical-align:central;
+	font-size:11px;
+	text-transform:uppercase;
+	}
+	
+	/******* pagination ************/
+.paginationprod{
+	display:block;
+	width:100%;
+	background:#F0F0F0;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	padding:15px 0px;
+	margin:15px 0px;
+	}
+.paginationprod a{
+	color:#000;
+	background:#CCCCCC;
+	border-radius:20px;
+	font-size:15px;
+	padding:5px 10px;
+	margin:5px;
+	text-decoration:none;
+	}
+.paginationprod a:hover{
+	background:#FFCA03;
+	}
+.active{
+	background:#FFCA03 !important;
+	}
+

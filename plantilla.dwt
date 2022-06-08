@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>FENIX LAUPA S.A.C. :: Importación, distribución y representación de productos de Iluminación y ferretería eléctrica.</title>
+<!-- TemplateEndEditable -->
+<meta name="description" content="FENIX LAUPA S.A.C. :: Importacion, distribución y representacion de productos de Iluminación y ferreteria eléctrica.">
+<meta name="keywords" content="feenilux, fenix laupa, iluminacion y ferreteria">
+<meta name="distribution" content="global"> 
+<meta name="robots" content="all">
+<meta name="author" content="jesuskana.net"/>
+<link rel="shortcut icon" href="fenix2.ico" type="image/x-icon">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+		$(function(){
+			$('.slides').slides({
+				preload: true,
+				preloadImage: 'slider-img/loading.gif',
+				play: 5000,
+				pause: 2000,
+				hoverPause: true
+			});
+		});
+</script>
+
+<script>
+		$(function(){
+			$('.slides1').slides({
+				preload: true,
+				preloadImage: 'slider-img/loading.gif',
+				play: 5000,
+				pause: 2000,
+				hoverPause: true
+			});
+		});
+</script>
+
+
+
+
+<!-- IMAGENES SHADOWBOX-->
+
+<link rel="stylesheet" type="text/css" href="Templates/shadowbox/files/shadowbox.css">
+<script type="text/javascript" src="Templates/shadowbox/files/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+
+
+
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+
+<link href="css/feenilux.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+ 
+
+
+<body>
+
+<header>
+    	<div class="logo"> <a href="index.html"><img src="img/logo.png" width="230" height="118" alt="FENIX LAUPA SAC"></a>
+        
+    </div>
+        <div class="telef"><b>Telf:</b> (01) 424 5817 <br>
+<b>Celular: </b>994264894 <br>
+<a href="MAILTO:ventas@feenilux.com" target="_blank">ventas@feenilux.com</a> 
+        </div>
+        <nav class="menu">
+        	<ul>
+            	<li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a class="current" href="productos.html">Productos</a>
+                    
+                     <ul>
+                <li><a href="iluminacion-led.html">Iluminación - Led</a></li>
+<li><a href="iluminacion-focosahorradores.html">Iluminación - Ahorradores</a></li>
+<li><a href="interruptor-tomacorriente.html">Interruptor - Toma-corrientes</a></li>
+<li> <a href="cables-electricos.html">Cables - Alambres Eléctricos</a></li>
+<li><a href="extractores-ventiladores.html">Extractor - Ventilador</a></li>
+<li><a href="luminarias-lamparas.html"> Lamparas - Luminarias</a></li>
+<li> <a class="last" href="otros.html">Otros</a></li>
+                
+                    
+				 
+			   </ul>
+    
+                </li>
+                <li><a  href="contacto.html">Contacto</a></li>
+                <li><a href="http://www.feenilux.com/webmail" target="_blank" class="last">Webmail</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section><!-- TemplateBeginEditable name="body" -->
+	
+	<article class="banner">
+        <div class="slides">
+         <div class="slides_container">
+                 <a href="#" ><img src="img/banners/2.jpg" ></a> 
+              <a href="#" ><img src="img/banners/1.jpg" ></a>
+              
+             <a href="#" ><img src="img/banners/3.jpg" ></a>
+               
+              </div>
+                        
+                        <a href="#" class="prev"><img src="img/flecha1.jpg" width="38" height="38" ></a>
+                        <a href="#" class="next"><img src="img/flecha2.jpg" width="38" height="38" ></a>
+                        
+            
+      </div>
+        	<div>
+            
+            </div>
+        </article>
+        
+   	  <article class="descripcion">
+        	<div class="izq">
+            <h2>Marcas</h2>
+            <div class="marcas">
+            
+        <img src="img/marcas.jpg" width="200" height="230" alt="marcas"></div> </div>
+            <div class="der">
+            <h1>FENIX LAUPA S.A.C. </h1>
+            <p>Ah'll gi' thi summat to rooer abaht t'foot o' our stairs eeh. Appens as maybe ah'll gi' thee a thick ear gerritetten breadcake. Tha what. Soft southern pansy. Appens as maybe ah'll gi' thi summat to rooer abaht mardy bum big girl's blouse by 'eck face like a slapped arse. Dahn t'coil oil th'art nesh thee eeh. Bloomin' 'eck ne'ermind. Be reet big girl's blouse soft southern pansy. Bobbar shurrup chuffin' nora a pint 'o mild eeh tintintin. Bobbar mardy bum tintintin. Be reet what's that when it's at ooam ah'll box thi ears tintintin ah'll box thi ears soft lad. Gerritetten tha what god's own county nah then. Michael palin t'foot o' our stairs god's own county.</p>
+            <p>Tintintin ah'll box thi ears soft lad. Gerritetten tha what god's own county nah then. Michael palin t'foot o' our stairs god's own county.</p>
+              <a class="leermas" href="#">Leer más</a> 
+        </div>
+            <div class="limpiar"></div>
+        
+        </article>
+	
+	<!-- TemplateEndEditable -->
+    
+    	
+</section>
+    
+    
+<footer>
+
+<p>
+ 
+Av. Guillermo Dansey N° 354 1er. Piso Stand G-06 Cercado - Lima
+Telf: (01) 424 5817 Cel. Entel: 994-264894 / 994-266007 </p>
+<p><B>© FENIX LAUPA S.A.C. 2013</B> - www.feenilux.com </p>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42341522-1', 'feenilux.com');
+  ga('send', 'pageview');
+
+</script>
+    
+</body>
+</html>
